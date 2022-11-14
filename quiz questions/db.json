@@ -1,0 +1,98 @@
+{
+    "pigs":[
+        {
+            "id" : 1,
+            "habitat" : "Broadleaf woodlands and coniferous woodlands",
+            "Genus": "pig",
+            "value" : "10",
+            "image" : "",
+            "description" : "The wild boar, which is sometimes called the European wild boar, is the largest of the wild pigs and is native to forests ranging from western and northern Europe and North Africa to India, the Andaman Islands, and China. It is bristly haired, grizzled, and blackish or brown in color and stands up to 90 cm (35 inches) tall at the shoulder.",
+            "species" : "Wild Boar"
+        },
+        {
+            "id":2,
+            "habitat":"Moist, swampy forests and tropical rain forests",
+            "Genus":"babyrousa",
+            "value":"",
+            "image" : "",
+            "description":"The Babirusas, whose name directly translates to Pig Deer in English, are found in the Indonesian islands of Sulawesi, Togian, Sula and Buru. The Babirusa have remarkable tusks or canine teeth that can grow right up through the skin in their snout and curve back toward their forehead.Babirusas have barrel-shaped bodies with deer-like legs and bristly skin. They are a dull gray or brownish in color and appear naked or hairless. They are about 2 feet tall and 3 feet long and can weigh over 200 pounds.",
+            "species":"Babirusa"
+        },
+        {
+            "id":3,
+            "habitat":"Humid highlands, and forests",
+            "Genus":"",
+            "value": "",
+            "image" : "",
+            "description": "Giant forest hogs are considered the largest wild member of the pig family. They occur in the west and central Africa, where they are largely restricted to the Guinean and Congolese forests.They have extensive hairs on their body, which become less pronounced with age. They are mostly black in color on the surface, though hairs nearest the skin are a deep orange color. The ears are large and pointy, and the tusks of a male may reach a length of 36 centimeters. Females in this species are generally smaller than males.",
+            "species":"Giant Forest Hog"
+        },
+        {
+            "id":4,
+            "habitat":"Forests, savannas, swamps, and grasslands",
+            "Genus":"Potamochoerus",
+            "value":"",
+            "image" : "",
+            "description":"Red river hogs, who are also known as bush pigs, are the smallest of the African pigs on average, growing to 40 to 50 inches (102 to 127 centimeters) in length and weighing 100 to 285 pounds (45 to 129 kilograms). The ones found in West Africa are predominantly red with a white stripe along their backs, while those found in the eastern and southern habitats can be red, brown or black, sometimes becoming darker with age. ",
+            "species":"Red River Hog"
+            
+        },
+        {
+            "id":5,
+            "habitat":"Forests, woodland, riverine vegetation and cultivated areas",
+            "Genus":"Potamochoerus",
+            "value":"",
+            "image" : "",
+            "description":"",
+            "species":"Bush Pig"
+
+        },
+        {
+            "id":6,
+            "habitat" : "Tall and wet grassland plains",
+            "Genus":"",
+            "value" : "",
+            "image" : "",
+            "description" : "",
+            "species" : "Pygmy Hog"
+        },
+        {
+            "id": 7,
+            "habitat" : "Open arid countryside including thin woodland with scattered trees, xerophytic scrubland, and sandy plains, but not upland areas",
+            "Genus":"",
+            "value" : "",
+            "image" : "",
+            "description" : "",
+            "species" : "Desert warthog"
+        },
+        {
+            "id":8,
+            "habitat" : "",
+            "Genus":"",
+            "value" : "",
+            "image" : "",
+            "description" : "",
+            "species" : "Bornean bearded pig"
+        },
+        {
+            "id":9,
+            "habitat" : "",
+            "Genus":"",
+            "value" : "",
+            "image" : "",
+            "description" : "",
+            "species" : "Visayan warty pig"
+        },
+        {
+            "id":10,
+            "habitat" : "",
+            "Genus":"",
+            "value" : "",
+            "image" : "",
+            "description" : "",
+            "species" : "Togian Babirusa"
+        }
+    ]
+
+
+}
