@@ -1,10 +1,10 @@
 import react from "react"
-import Hogs from "./hogs"
+import Hogs from "./Hogs"
 
-const HogsContainer = ({hogsData}) => {
+const HogsContainer = ({hogsData, removeHog}) => {
     const renderHogs = hogsData.map (hogObj => {
         return (
-        <Hogs key={hogObj.id} hogObj={hogObj}/>
+        <Hogs key={hogObj.id} hogObj={hogObj} removeHog={removeHog}/>
         )
     })
     return (
