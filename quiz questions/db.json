@@ -4,8 +4,8 @@
             "id" : 1,
             "habitat" : "Broadleaf woodlands and coniferous woodlands",
             "Genus": "pig",
-            "value" : "10",
-            "image" : "",
+            "value" : 9,
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg/1200px-Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg",
             "description" : "The wild boar, which is sometimes called the European wild boar, is the largest of the wild pigs and is native to forests ranging from western and northern Europe and North Africa to India, the Andaman Islands, and China. It is bristly haired, grizzled, and blackish or brown in color and stands up to 90 cm (35 inches) tall at the shoulder.",
             "species" : "Wild Boar"
         },
@@ -13,17 +13,17 @@
             "id":2,
             "habitat":"Moist, swampy forests and tropical rain forests",
             "Genus":"babyrousa",
-            "value":"",
-            "image" : "",
+            "value": 2,
+            "image" : "http://2.bp.blogspot.com/-B6CfKV9ztaQ/Uxc-y1WXW-I/AAAAAAAAAiY/x-DaKjuoA7Q/s1600/babirusa.jpg",
             "description":"The Babirusas, whose name directly translates to Pig Deer in English, are found in the Indonesian islands of Sulawesi, Togian, Sula and Buru. The Babirusa have remarkable tusks or canine teeth that can grow right up through the skin in their snout and curve back toward their forehead.Babirusas have barrel-shaped bodies with deer-like legs and bristly skin. They are a dull gray or brownish in color and appear naked or hairless. They are about 2 feet tall and 3 feet long and can weigh over 200 pounds.",
             "species":"Babirusa"
         },
         {
             "id":3,
             "habitat":"Humid highlands, and forests",
-            "Genus":"",
-            "value": "",
-            "image" : "",
+            "Genus":"Hylochoerus",
+            "value": 7,
+            "image" : "https://i.pinimg.com/736x/6d/b7/a9/6db7a912bffe3d7f700f898e4a0f172b--forests-earth.jpg",
             "description": "Giant forest hogs are considered the largest wild member of the pig family. They occur in the west and central Africa, where they are largely restricted to the Guinean and Congolese forests.They have extensive hairs on their body, which become less pronounced with age. They are mostly black in color on the surface, though hairs nearest the skin are a deep orange color. The ears are large and pointy, and the tusks of a male may reach a length of 36 centimeters. Females in this species are generally smaller than males.",
             "species":"Giant Forest Hog"
         },
@@ -31,9 +31,9 @@
             "id":4,
             "habitat":"Forests, savannas, swamps, and grasslands",
             "Genus":"Potamochoerus",
-            "value":"",
-            "image" : "",
-            "description":"Red river hogs, who are also known as bush pigs, are the smallest of the African pigs on average, growing to 40 to 50 inches (102 to 127 centimeters) in length and weighing 100 to 285 pounds (45 to 129 kilograms). The ones found in West Africa are predominantly red with a white stripe along their backs, while those found in the eastern and southern habitats can be red, brown or black, sometimes becoming darker with age. ",
+            "value": 10,
+            "image" : "https://thealexandriazoo.com/images/animals/RedRiverHog02.jpg",
+            "description":"Red river hogs are the smallest of the African pigs on average, growing to 40 to 50 inches (102 to 127 centimeters) in length and weighing 100 to 285 pounds (45 to 129 kilograms). The ones found in West Africa are predominantly red with a white stripe along their backs, while those found in the eastern and southern habitats can be red, brown or black, sometimes becoming darker with age. ",
             "species":"Red River Hog"
             
         },
@@ -41,56 +41,56 @@
             "id":5,
             "habitat":"Forests, woodland, riverine vegetation and cultivated areas",
             "Genus":"Potamochoerus",
-            "value":"",
-            "image" : "",
-            "description":"",
+            "value": 5,
+            "image" : "https://t4.ftcdn.net/jpg/03/84/96/49/360_F_384964908_nSN3DLN3magCkJ5AzvNJGlVV8u73t2KW.jpg",
+            "description":"Bushpigs are members of the pig family. They are found in East and Southern Africa. Bush Pigs are distributed over a wide range, and occurs from Ethiopia and Somalia to eastern and southern DR Congo and southwards to Cape and KwaZulu-Natal Province in South Africa. They resemble the domestic pig and can be identified by their blunt, muscular snouts, small eyes, pointed, tufted ears, and buckled toes. Their color varies from reddish brown to dark brown and becomes darker with age. Both sexes have a lighter-colored mane which bristles when the animal becomes agitated. The upper parts of the face and ears are also lighter in color. Their sharp tusks are fairly short and inconspicuous.",
             "species":"Bush Pig"
 
         },
         {
             "id":6,
             "habitat" : "Tall and wet grassland plains",
-            "Genus":"",
-            "value" : "",
-            "image" : "",
-            "description" : "",
+            "Genus":"Porcula",
+            "value" : 8,
+            "image" : "https://www.durrell.org/media/tg1h4svk/_cmj3174-rt.jpeg?center=0.52560664879070451,0.80256394321682534&mode=crop&quality=90&width=1680&height=1120&rnd=132893257607270000",
+            "description" : "The Pygmy hog is the smallest and the rarest wild pig in the world. They can be found only in southern Bhutan and in Assam, India. Its skin is dark brownish-black in color and the hair is dark. Piglets are born grayish-pink, becoming brown with yellow stripes along the body length. Its head is sharply tapered and it has a slight crest of hair on their foreheads and on the back of its necks.",
             "species" : "Pygmy Hog"
         },
         {
             "id": 7,
             "habitat" : "Open arid countryside including thin woodland with scattered trees, xerophytic scrubland, and sandy plains, but not upland areas",
-            "Genus":"",
-            "value" : "",
-            "image" : "",
-            "description" : "",
+            "Genus":"Phacochoerus",
+            "value" : 4,
+            "image" : "https://static.wikia.nocookie.net/naturerules1/images/b/bc/Desert-warthog-large.jpg/revision/latest?cb=20210209062944",
+            "description" : "Desert Warthogs are stockily-built animals with males being larger than females. They have a rather flattened head with distinctive facial paired protuberances (warts) and large curving canine teeth that protrude as tusks. Their body is sparsely covered with bristly hairs and a more dense region of hairs runs along the spine and forms a crest. The tail is long and thin and is tipped with a small brush of coarse hair. Desert warthogs are generally mid to dark brown in color but the crest is sometimes whitish. Desert warthogs are native to Northeast Africa. Their current range extends from southeastern Ethiopia through western Somalia to eastern and Central Kenya.",
             "species" : "Desert warthog"
         },
         {
             "id":8,
-            "habitat" : "",
-            "Genus":"",
-            "value" : "",
-            "image" : "",
-            "description" : "",
+            "habitat" : "Rainforests and mangrove forests",
+            "Genus":"Sus barbatus",
+            "value" : 3,
+            "image" : "https://images.theconversation.com/files/213392/original/file-20180405-189830-3nciwj.jpg?ixlib=rb-1.1.0&rect=0%2C60%2C1500%2C1039&q=45&auto=format&w=926&fit=clip",
+            "description" : "The Bornean bearded pig, also known as the Sunda bearded pig or simply bearded pigs, can be recognized by their prominent beard which is more pronounced in males. They also sometimes have tassels on their tail. Bornean bearded pigs are usually pale gray in color, but may vary in appearance depending on location from reddish-brown, dark brown, or very pale. Males have two pairs of small facial warts which are hidden within the beard. Both sexes are similar in appearance and have sharp tusks. Bornean bearded pigs are found in Southeast Asia. They occur in Sumatra, Borneo, the Malay Peninsula, and various smaller islands like in Sulu archipelago such as Tawi-Tawi.",
             "species" : "Bornean bearded pig"
         },
         {
             "id":9,
-            "habitat" : "",
-            "Genus":"",
-            "value" : "",
-            "image" : "",
-            "description" : "",
+            "habitat" : "Dense forested areas and grasslands",
+            "Genus":"Sus cebifrons",
+            "value" : 6,
+            "image" : "https://s36593.pcdn.co/wp-content/uploads/2020/02/Pig-VisayanWartyHogMale-TM.jpg",
+            "description" : "The Visayan warty pig is a small, forest-dwelling pig, little known, and only recently recognized as a distinct species. The males or boars are much larger than the females or sows, and, unique amongst wild pigs, grow crests and manes during the breeding season that are as long as 23 cm. They are named after the islands where they live, and because of the three pairs of warts on the face of male pigs, which may help protect their face when fighting. They are endemic to six islands in the Philippines: Cebu, Negros, Panay, Masbate, Guimaras, and Siquijor. However, only Negros and Panay have documented remaining populations of Visayan warty pigs.",
             "species" : "Visayan warty pig"
         },
         {
             "id":10,
-            "habitat" : "",
-            "Genus":"",
-            "value" : "",
-            "image" : "",
-            "description" : "",
-            "species" : "Togian Babirusa"
+            "habitat" : "Lives in a yellow house on a hill and speaks English with a British accent",
+            "Genus":"Blackstone Adventure",
+            "value" : 11,
+            "image" : "https://ahchealthenewscdn.azureedge.net/wp-content/uploads/2019/04/bacon.jpg",
+            "description" : "The characters wear clothes, live in houses, and drive cars, but still display some characteristics of the animals on which they are based.",
+            "species" : "Peppa Pig"
         }
     ]
 

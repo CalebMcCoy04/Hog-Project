@@ -1,21 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useEffect, useState } from "react";
 
 function App() {
+  const [ pigsData, setPigsData ] = useState([])
+   useEffect(() => {
+      fetch("http://localhost:3002/pigs")
+      .then(r => r.json())
+      .then(arrayOfPigs => 
+        setPigsData(arrayOfPigs)
+       
+        )
+   },[])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src={pigsData[9].image} className="App-logo" alt="logo" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          
           target="_blank"
-          rel="noopener noreferrer"
+          
         >
-          Learn React
+          <button>HOGS!</button>
         </a>
       </header>
     </div>
