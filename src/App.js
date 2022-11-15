@@ -1,31 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
 import React, { useEffect, useState } from "react";
+import HogsContainer from "./HogsContainer";
+import HogSearch from "./HogSearch";
 
 function App() {
-  const [ pigsData, setPigsData ] = useState([])
+  const [ hogsData, setHogsData ] = useState([])
    useEffect(() => {
       fetch("http://localhost:3002/pigs")
       .then(r => r.json())
-      .then(arrayOfPigs => 
-        setPigsData(arrayOfPigs)
+      .then(arrayOfHogs=> 
+        setHogsData(arrayOfHogs)
        
         )
    },[])
-
+	const [searchText, setSearchText]= useState("")
+	const filterHogsData = hogsData.filter((hogsObj => {
+ 		return hogsObj.species.toLowerCase().includes(searchText.toLowerCase())   
+  }))
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={pigsData[9].image} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          
-          target="_blank"
-          
-        >
-          <button>HOGS!</button>
-        </a>
+        The National Hog Encyclopedia
       </header>
+      <HogsContainer hogsData={filterHogsData}/>
+      <HogSearch searchText={searchText} setSearchText={setSearchText}/>
     </div>
   );
 }
