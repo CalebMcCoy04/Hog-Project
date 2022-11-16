@@ -89,6 +89,96 @@
       "image": "https://ahchealthenewscdn.azureedge.net/wp-content/uploads/2019/04/bacon.jpg",
       "description": "The characters wear clothes, live in houses, and drive cars, but still display some characteristics of the animals on which they are based.",
       "species": "Peppa Pig"
+    },
+    {
+      "id": 11,
+      "habitat": "",
+      "Genus": "Sus domesticus",
+      "value": "",
+      "image": "https://www.breedslist.com/wp-content/uploads/2016/09/Choctaw-Hog.jpg",
+      "description": "The Choctaw hogs are black, sometimes with white markings, and at about 120 pounds, they are relatively small for a domestic pig. Their toes are typically fused forming a single hoof like that of a mule. Many of them have fleshy wattles on each side of their necks. The Choctaw people and their livestock migrated from the Deep South to Oklahoma Territory in the early 19th century. ",
+      "species": "Choctaw Hog"
+    },
+    {
+      "id": 12,
+      "habitat": "adaptable and thrive in a wide variety of climates.",
+      "Genus": "Sus domesticus",
+      "value": "",
+      "image": "https://livestockconservancy.org/wp-content/uploads/2022/08/Hereford-scaled.jpg",
+      "description": "Herefords are a medium-size hog that’s unique to the United States. It was developed in Iowa and Nebraska during the 1920s from Duroc, Chester White, and Poland China bloodlines.These hogs are primarily red, with a white face and two or more white feet. It is a pig of medium size: mature sows weigh about 270 kg (600 lb) and boars about 360 kg (800 lb).",
+      "species": "Hereford Hog"
+    },
+    {
+      "id": 13,
+      "habitat": "Forest, Orchard, and Pastured land",
+      "Genus": "Sus domesticus",
+      "value": "",
+      "image": "https://morningchores.com/wp-content/uploads/2020/09/American-Guinea-Hog-1.jpg",
+      "description": "The Guinea Hog is a small and black swine breed. Prior to 2006, this pig was referred to as Guinea Hog, Guinea Forest Hog, or “yard pig.” Some have reddish tinges to their ears or develop maroon shading. They were imported from West Africa and the Canary Islands to America in conjunction with the slave trade. They weigh around 69 to 135 kg (150 to 300 lb).  ",
+      "species": "Guinea Hog"
+    },
+    {
+      "id": 14,
+      "habitat": "grasslands, forest and areas of parang, from sea level to the mountains",
+      "Genus": "Sus philippensis",
+      "value": "",
+      "image": "http://images.summitmedia-digital.com/esquiremagph/images/2022/04/19/1-panel%20(10).png",
+      "description": "Philippine warty pigs, also known as baboy damo, have two pairs of warts, with a tuft of hair extending outwards from the warts closest to the jaw. They were mostly found in Luzon, Biliran, Samar, Leyte, Mindoro, Mindanao, Jolo, Polillo, Catanduanes, and possibly other islands. It was formerly found in most habitats (from sea level to up to 2800 m) but is now confined to remote forests due to loss of habitat and heavy hunting.",
+      "species": "Philippine warty pig"
+    },
+    {
+      "id": 15,
+      "habitat": "",
+      "Genus": "",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": ""
+    },
+    {
+      "id": 16,
+      "habitat": "",
+      "Genus": "Sus domesticus",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": "Vietnamese Pot-bellied"
+    },
+    {
+      "id": 17,
+      "habitat": "",
+      "Genus": "",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": ""
+    },
+    {
+      "id": 18,
+      "habitat": "",
+      "Genus": "",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": ""
+    },
+    {
+      "id": 19,
+      "habitat": "",
+      "Genus": "",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": ""
+    },
+    {
+      "id": 20,
+      "habitat": "",
+      "Genus": "",
+      "value": "",
+      "image": "",
+      "description": "",
+      "species": ""
     }
   ]
 }

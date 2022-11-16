@@ -1,5 +1,5 @@
 import react from "react"
-import Hogs from "./Hogs"
+import Hogs from "./HogsCards"
 
 const HogsContainer = ({hogsData, removeHog}) => {
     const renderHogs = hogsData.map (hogObj => {
@@ -8,7 +8,7 @@ const HogsContainer = ({hogsData, removeHog}) => {
         )
     })
     return (
-        <div>
+        <div className="hog-container">
             {renderHogs}
         </div>
     )

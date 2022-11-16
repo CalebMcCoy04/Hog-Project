@@ -4,7 +4,8 @@ import {BrowserRouter, Switch, Route, Routes} from 'react-router-dom'
 import HogsContainer from "./HogsContainer";
 import HogSearch from "./HogSearch";
 import HogsForm from "./HogsFormm";
- import NavBar from "./NavBar";
+import NavBar from "./NavBar";
+
 function App() {
   const [ hogsData, setHogsData ] = useState([])
    useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
        
         )
    	},[])
+    console.log(hogsData)
 
 	const [searchText, setSearchText]= useState("")
   	const filterHogsData = hogsData.filter((hogsObj => {
@@ -30,23 +32,31 @@ function App() {
     }
 
   return (
-    <NavBar>
+    
+    
+    <div className="App">
+      <NavBar/>
+        <Switch>
 
-      <div className="App">
-        <header className="App-header">
-          The National Hog Encyclopedia
-        </header>
-        <Routes>
 
-      
-        <HogSearch searchText={searchText} setSearchText={setSearchText}/>
-        <HogsContainer removeHog={removeHog} hogsData={filterHogsData}/>
-      
+          <Route exact path="/HogSearch" >
+            <HogSearch searchText={searchText} setSearchText={setSearchText}/>
+            <HogsContainer removeHog={removeHog} hogsData={filterHogsData}/>
+          </Route>
 
-        <HogsForm hogsData={hogsData} setHogsData={setHogsData}/>
-        </Routes>
+          <Route exact path="/HogsContainer" >
+            <HogsContainer removeHog={removeHog} hogsData={filterHogsData}/>
+          </Route>
+          <Route exact path="/HogsForm">
+            <HogsForm hogsData={hogsData} setHogsData={setHogsData}/>  
+            <HogsContainer removeHog={removeHog} hogsData={filterHogsData}/>
+          </Route>
+        
+        </Switch>
+        <body className="home-page">
+          
+        </body>
       </div>
-  //    </NavBar>
   );
 }
 

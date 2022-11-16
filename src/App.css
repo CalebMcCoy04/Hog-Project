@@ -1,7 +1,42 @@
-.hog-form {
-  text-align: center;
-  margin-top: 10px;
+/* .App{
+  background-image: ;
+} */
+.hog-container{
+  background-repeat: no-repeat;
+  background-color: burlywood;
+  background-size: cover ;
 }
+
+/* HOG FORM */
+.hog-form-div {
+  position: flex;
+  top: 4em;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.hog-form {
+  display: center;
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+  text-align: center
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+/* .n1 {
+
+} */
+/* END OF HOG FORM  */
 
 img {
   
@@ -10,9 +45,9 @@ img {
   height: auto;
 }
 
-.container {
+/* HOG CARDS  */
+.card-container {
   vertical-align: top;
-  
   display: inline-grid;
   margin-top: 20vh;
   margin-right: 5px;
@@ -27,6 +62,7 @@ img {
   border-radius: 12px;
   border: 1px solid #000;
 }
+/* END OF HOG CARDS  */
 
 .title {
   margin: 0 auto;
@@ -41,6 +77,105 @@ p {
   margin: 0 auto;
   display: block;
 }
+
+.search-bar {
+  display: top;
+  position: top;
+  text-align: center;
+ 
+}
+
+
+
+/* body.party-time li,
+body.party-time span,
+body.party-time img,
+body.party-time button {
+  animation: spin 2s linear 0s infinite;
+}
+
+body.party-time p,
+body.party-time h2,
+body.party-time h3,
+body.party-time h4 {
+  animation: spin 3s linear 4s infinite;
+}
+
+body.party-time main {
+  animation: colorchange 17s linear 4s infinite alternate;
+}
+
+body.party-time div {
+  animation: colorchange 17s linear 8s infinite alternate;
+}
+
+body.party-time aside {
+  animation: colorchange 17s linear 12s infinite alternate;
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(0.75) rotate(0deg);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.75) rotate(360deg);
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    background: red;
+  }
+
+  33% {
+    background: green;
+  }
+
+  66% {
+    background: blue;
+  }
+
+  100% {
+    background: red;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .search-input{
+
+} */
+
 
 
 /* Not Needed */
