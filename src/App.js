@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {BrowserRouter, Switch, Route, Routes} from 'react-router-dom'
 
 import HogsContainer from "./HogsContainer";
 import HogSearch from "./HogSearch";
@@ -30,21 +30,23 @@ function App() {
     }
 
   return (
-    // <NavBar>
+    <NavBar>
 
       <div className="App">
         <header className="App-header">
           The National Hog Encyclopedia
         </header>
-       
-      {/* <Route exact path="/HogSearch"> */}
+        <Routes>
+
+      
         <HogSearch searchText={searchText} setSearchText={setSearchText}/>
-      {/* </Route> */}
         <HogsContainer removeHog={removeHog} hogsData={filterHogsData}/>
+      
 
         <HogsForm hogsData={hogsData} setHogsData={setHogsData}/>
+        </Routes>
       </div>
-    // </NavBar>
+  //    </NavBar>
   );
 }
 

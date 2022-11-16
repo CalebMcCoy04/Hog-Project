@@ -10,7 +10,7 @@ function NavBar(){
                 <h3>Home</h3>
             </NavLink>
 
-            <NavLink to="/HogSearch">
+            <NavLink to="/HogContainer">
                 <h4>Hog Search</h4>
             </NavLink>
         </>
