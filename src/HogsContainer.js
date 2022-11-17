@@ -11,15 +11,16 @@ const HogsContainer = ({hogsData, removeHog}) => {
     
     const handleClick = () => {
         setPig(!pig)
-                window.alert("i was clicked")
+                // window.alert("i was clicked")
             }
+    
     return (
         <div className="hog-container">
             
-            <fieldset>
+            <fieldset className="fieldset">
                 <h1 className="hog-list-title"> Hog List </h1>
                 <legend className="pig" onClick={handleClick}>🐖</legend>
-            {renderHogs}
+            {  renderHogs }
             </fieldset>
         </div>
     )

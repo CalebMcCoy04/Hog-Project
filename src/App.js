@@ -39,7 +39,7 @@ function App() {
       <NavBar/>
         <Switch>
           <Route exact path="/">
-            <Home/>
+        <Home hogsData={filterHogsData}/>
           </Route>
 
           <Route exact path="/HogSearch" >

@@ -1,7 +1,8 @@
 function Home(){
     return(
     <div className="home">
-        <h1>Welcome To The Hog Team</h1>
+        <h1><strong>Welcome To The Hog Team</strong></h1>
+        
     </div>
     )
 }

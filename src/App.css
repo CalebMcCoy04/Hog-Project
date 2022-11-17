@@ -1,14 +1,39 @@
-.home{
-  background-image:url(https://wallpaperaccess.com/full/1154341.jpg)
+:root {
+  font-style: italic;
 }
+
+.home{
+  width: 100%;
+  height: 89vh;
+  
+  margin: 0;
+  padding:0.5rem;
+  overflow: hidden;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+ font-family: cursive;
+}
+
+.main-h1 {
+  color: #eee;
+}
+
+/* h2 {
+  text-align: center;
+} */
+
 .App{
   background-image: url(https://wallpaperaccess.com/full/1154341.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-size: 100% ;
 }
 
 .navbar-div{
-  background-image: url(https://wallpaperaccess.com/full/1154341.jpg);
+  
+  background-repeat: no-repeat;
   text-align:center ;
   text-orientation:mixed;
   white-space: wrap;
@@ -17,13 +42,16 @@
 } 
 .hog-container{
   background-repeat: no-repeat;
-  background-color: #374B2D;
+  background-color: #411c04;
   background-size: cover ;
   border:5px;
+  height:cover;
 }
 
 .hog-list-title {
   text-align:center ;
+  color: #eee;
+  font-style: italic;
 }
  
 
@@ -43,7 +71,8 @@
 .hog-form {
   margin:auto;
    
-  background-color: #F99331;
+  /* background-color: #000080; */
+  opacity: 80%;
   border-radius: 20px;
   /* box-sizing: border-box; */
   height: 500px;
@@ -54,8 +83,8 @@
 }
 
 .form-title {
-  color: #eee;
-  font-family: sans-serif;
+  color: #000;
+  font-family: Trattatello, fantasy;
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
@@ -66,6 +95,7 @@
   height: 50px;
   position: relative;
   width: 100%;
+  margin-bottom:5px;
 }
 
 .n1 {
@@ -77,7 +107,7 @@
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
-  color: #eee;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   height: 100%;
   outline: 0;
@@ -98,6 +128,7 @@
   outline: 0;
   text-align: center;
   width: 100%;
+  margin: auto;
 }
 /* END OF HOG FORM  */
 
@@ -113,6 +144,8 @@ img:hover{
   -webkit-transform: rotate(360deg) translateX(0);
 }
 
+
+
 /* img.party-time {
   animation: spin 2s linear 0s infinite;
 } */
@@ -121,7 +154,7 @@ img:hover{
 .card-container {
   vertical-align: top;
   display: inline-grid;
-  margin-top: 20vh;
+  margin-top: 20px;
   margin-right: 5px;
   margin-left: 45px;
   
@@ -129,34 +162,194 @@ img:hover{
 
 .card {
   
-  background-color: white;
+  background-color: #374B2D;
+  
+  font-size: large;
+  font-style: italic;
+  font-family: Trattatello fantasy;
   padding: 8px;
   width:17rem;
   border-radius: 12px;
   border: 1px solid #000;
   box-sizing: border-box;
+  height: 45em;
+  color: white;
 }
 /* END OF HOG CARDS  */
 
 .title {
   margin: 0 auto;
+  text-align: center;
 }
 
 p {
   font-size: 14px;
   line-height: 150%;
+  color: #ffffff;
 }
 
 .delete-button-hogs {
   margin: 0 auto;
   display: block;
+  display:inline-block;
+
+  }
+
+.delete-button-hogs {
+    width: 150px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 5px;
+    background: #ffc421;
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+    transition: 500ms;
+    margin: 0 auto;
+    display: block;
+  }
+  
+.delete-button-hogs:after {
+    content: '';
+    position: absolute;
+    transform: translateX(-55px) translateY(-40px);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0px 0px 50px transparent;
+    transition: 500ms;
+  }
+  
+.delete-button-hogs:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+  }
+  
+.delete-button-hogs:hover:after {
+    background: white;
+    box-shadow: 0px 0px 20px #ffc421, 0px 0px 30px #ffc421, inset 0px 0px 10px #ffc421;
+    animation: spin 1s infinite linear;
+  }
+  
+  @keyframes spin{
+    25%{transform: translateX(-25px) translateY(-35px);
+        width: 15px;
+        height: 15px;}
+    50% {transform: translateX(-55px) translateY(-30px);
+        width: 5px;
+        height: 5px;}
+    75% {transform: translateX(-85px) translateY(-35px);
+        width: 15px;
+        height: 15px;}
+  }
+  
+  .delete-button-hogs:focus {
+    outline: none;
+  }
+
+
+/* HOG SEARCH */
+/* * {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--bg: #e3e4e8;
+	--fg: #17181c;
+	--input: #ffffff;
+	--primary: #255ff4;
+	--dur: 1s;
+	font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1280 - 320));
+} */
+body, input {
+	color: var(--fg);
+	font: 1em/1.5 Hind, sans-serif;
 }
 
-.search-bar {
-  display: top;
+.search-form, .search-input, .caret {
+  margin: auto;
+}
+.search-form {
+  position: relative;
+	width:700px;
+  height: 10vh;
+	
+  padding:0.5rem;
+  /* display: top;
   position: top;
-  text-align: center;
+  text-align: center; */
  
+}
+.search-input, .caret {
+	display: block;
+}
+
+.search-input {
+  background: transparent;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0.25em inset;
+	caret-color: var(--primary);
+	width: 2em;
+	height: 2em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+}
+
+
+.search-input:focus, .search-input:valid {
+	background: var(--input);
+	border-radius: 0.25em;
+	box-shadow: none;
+	padding: 0.75em 1em;
+	transition-duration: calc(var(--dur) * 0.25);
+	transition-delay: calc(var(--dur) * 0.25);
+	width: 100%;
+	height: 3em;
+}
+input:focus {
+	animation: showCaret var(--dur) steps(1);
+	outline: transparent;
+}
+.search-input + .caret, .search-input:valid + .caret {
+	animation: handleToCaret var(--dur) linear;
+	background: transparent;
+	width: 1px;
+	height: 1.5em;
+	transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);
+}
+
+/* .search-input::-webkit-search-decoration {
+	-webkit-appearance: none;
+} */
+.search-label {
+	color: #e3e4e8;
+	overflow: hidden;
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+.caret {
+	background: currentColor;
+	border-radius: 0 0 0.125em 0.125em;
+	margin-bottom: -0.6em;
+	width: 0.25em;
+	height: 1em;
+	transform: translate(0,-1em) rotate(-45deg) translate(0,0.875em);
+	transform-origin: 50% 0;
+}
+
+@media (prefers-color-scheme: dark) {	
+	:root {
+		--bg: #374B2D;
+		/* --fg: #e3e4e8; */
+		--input: #374B2D;
+		--primary: #5583f6;
+	}
 }
 
 .hogs {
@@ -164,6 +357,43 @@ p {
   display: inline-grid;
   color: #ffffff;
 }
+
+
+body.party-time .party-button {
+  animation: spin 2s linear 0s infinite;
+}
+body.party-time img {
+  animation: spin 3s linear 4s infinite;
+}
+
+body.party-time .delete-button-hogs {
+  animation: spin 1s linear 2s infinite;
+}
+
+body.party-time .title {
+  animation: spin 1s linear 2s infinite;
+}
+
+body.party-time .p {
+  animation: spin 1s linear 2s infinite;
+}
+
+
+
+@keyframes spin {
+  0% {
+    transform: scale(0.75) rotate(0deg);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.75) rotate(360deg);
+  }
+}
+
 /* .fieldset{
   
 } */

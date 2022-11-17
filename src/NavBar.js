@@ -1,4 +1,4 @@
-import {NavLink} from "react-router-dom"
+import {NavLink, } from "react-router-dom"
 
 function NavBar(){
 
@@ -19,7 +19,7 @@ function NavBar(){
             <NavLink to="/HogsForm">
                 <h2 className="hogs">|  Add a Hog  |</h2>
             </NavLink>
-            
+         
         </div>
     )
 }

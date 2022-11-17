@@ -1,16 +1,23 @@
-import React from 'react';
-import { useState } from 'react'
+import React, { useState, useRef } from 'react';
 import CSS from './App.css';
+// import summer from "./src/assets/sumer-house-party-8849.mp3"
 
 const Hogs = ({hogObj, removeHog}) => {
-    const [partyTime, setPartyTime] = useState(false)
-    const handleClick = () => {
-        // !partyTime ? "party-time" : null;
-        setPartyTime(!partyTime)
-    }
+
+    const [ partyTime, setPartyTime ] = useState(false)
+
     const handleDelete = () => {
         removeHog(hogObj)
-        window.alert(`Do you really want to delete ${hogObj.species}`);
+        window.confirm(`Do you really want to delete ${hogObj.species}`);
+    }
+    // const partyHardy = useRef(new Audio(summer));
+    const handlePartyClick  = () => {
+        if (!partyTime) {
+            document.body.classList.add("party-time");
+          } else {
+            document.body.classList.remove("party-time");
+          }
+        setPartyTime(!partyTime)
     }
 
     return (
@@ -22,9 +29,12 @@ const Hogs = ({hogObj, removeHog}) => {
                 <div className='p'><p className= "hog-description" >{hogObj.description}</p></div>
                 <div className='p'><p><strong>Habitat:</strong> {hogObj.habitat}</p></div>
                 <button onClick={handleDelete} className="delete-button-hogs">DELETE</button>
-                <button className="party-time-button" onClick={handleClick}>🎉 time </button>
+            </div>
+            <div className="party-button-container">
+                <button onClick={handlePartyClick} className="party-button">🎉 PARTY TIME 🎉</button>
             </div>
         </div>
+        
     )
 }
 
