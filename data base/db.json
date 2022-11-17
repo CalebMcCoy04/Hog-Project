@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "habitat": "Rainforests and mangrove forests",
+      "habitat": "Rain forests and mangrove forests",
       "Genus": "Sus barbatus",
       "value": 3,
       "image": "https://images.theconversation.com/files/213392/original/file-20180405-189830-3nciwj.jpg?ixlib=rb-1.1.0&rect=0%2C60%2C1500%2C1039&q=45&auto=format&w=926&fit=clip",
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "habitat": "",
+      "habitat": "Oklahoma",
       "Genus": "Sus domesticus",
       "value": "",
       "image": "https://www.breedslist.com/wp-content/uploads/2016/09/Choctaw-Hog.jpg",
@@ -128,57 +128,57 @@
     },
     {
       "id": 15,
-      "habitat": "",
-      "Genus": "",
+      "habitat": "rain forest, swamp, cultivated land and grassland",
+      "Genus": "Sus Celebensis",
       "value": "",
-      "image": "",
-      "description": "",
-      "species": ""
+      "image": "https://i.pinimg.com/474x/99/f9/91/99f99153a1465ef90bf4f7769cf00874.jpg",
+      "description": "The Celebes warty pig is a medium-sized pig, and quite variable in size and appearance. This pig has a head-and-body length of between 80 and 130 cm (30 and 50 in) and a long tail. The back is rounded with short legs. The color is grayish-black, sometimes tinged with red or yellow on the flanks. It has three pairs of facial warts and a fringe of pale bristles on the snout and more bristles on the cheeks. The crown and nape are topped by a short crest of dark bristles, while a dark mid-dorsal stripe extends from the crest towards the tufted tail. The  pig occurs in Sulawesi and in nearby smaller islands of Buton, Muna, Kabeana, Peleng, Lembeh and the Togian Islands.",
+      "species": "Sulawesi Warty Pig"
     },
     {
       "id": 16,
-      "habitat": "",
+      "habitat": "open woodland areas with water nearby",
       "Genus": "Sus domesticus",
       "value": "",
-      "image": "",
-      "description": "",
+      "image": "https://e222ekm2n8r.exactdn.com/wp-content/uploads/2021/11/Gallery-PotBelliedPig03.jpeg?strip=all&lossy=1&ssl=1",
+      "description": "The Vietnamese Pot-bellied has uniformly black with heavily wrinkled skin. It has a pronounced sway back and a large sagging belly, which in pregnant sows may drag on the ground. The head is small, with an up-turned snout, small ears and eyes, and heavy sagging jowls. It was originally from Vietnam but are also in America now. An adult Vietnamese pot-bellied pig’s body length is around three feet and they weigh from 70 to 175 pounds.",
       "species": "Vietnamese Pot-bellied"
     },
     {
       "id": 17,
-      "habitat": "",
-      "Genus": "",
+      "habitat": "woodland habitats, farmlands, grasslands, meadows, and pastures",
+      "Genus": "Sus domesticus",
       "value": "",
-      "image": "",
-      "description": "",
-      "species": ""
+      "image": "https://cdn.iamcountryside.com/wp-content/uploads/2019/02/cal-pig-10.jpeg",
+      "description": "The Kunekune are a small breed of domestic pig from New Zealand. It is covered in hair which can be long or short, and straight or curly. Hair colors include black, brown, ginger, gold, cream, and spotted combinations. It has a medium to short, slightly upturned snout, often black, and either semi-lopped or pricked ears. It has a short, round body with short legs and may have two wattles under its chin. It stands about 60 cm (24 in) tall. An adult Kunekune can weigh between 60 and 200 kg (130 and 440 lb).",
+      "species": "Kunekune"
     },
     {
       "id": 18,
-      "habitat": "",
-      "Genus": "",
+      "habitat": "all major forest types and forest-grassland mosaics ",
+      "Genus": "Sus ahoenobarbus",
       "value": "",
-      "image": "",
-      "description": "",
-      "species": ""
+      "image": "https://64.media.tumblr.com/b3d98bf0e2d9a020bd433324d3063c58/tumblr_pr3t23T02R1xwu4tvo1_1280.jpg",
+      "description": "The Palawan bearded pig is the largest wild pig in the Philippines. It's body is dark gray to black in color, with the neck, trunk and limbs all covered in somewhat sparse black hair. A mane of longer pale-tipped hairs extends along the centre of the back; this is most prominent on the back of the head and neck. The tail is covered with long, black hair, and has a distinct feather-like brush of long hair at the tip. The long, narrow head ends with a nasal disc.",
+      "species": "Palawan bearded pig"
     },
     {
       "id": 19,
-      "habitat": "",
-      "Genus": "",
+      "habitat": "Indonesia",
+      "Genus": "Sus scrofa vittatus",
       "value": "",
-      "image": "",
-      "description": "",
-      "species": ""
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Banded_Pig_%28Sus_scrofa_vittatus%29_%288750051577%29.jpg",
+      "description": "The banded pig, also known as the Indonesian wild boar, is a short-faced subspecies with a white band on the muzzle, as well as sparse body hair, no under-wool, a fairly long mane, and a broad reddish band extending from the muzzle to the sides of the neck. It is found on many Indonesian Islands such as Sumatra, Java, and the Lesser Sundas as far east as Komodo.",
+      "species": " Banded Pig"
     },
     {
       "id": 20,
-      "habitat": "",
-      "Genus": "",
+      "habitat": "primary forests, secondary scrub, swamps, and beaches",
+      "Genus": "Babyrousa togeanensis",
       "value": "",
-      "image": "",
-      "description": "",
-      "species": ""
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Babyrousa_togeanensis.jpg",
+      "description": "The Togian babirusa, also known as the Malenge babirusa, are the largest of their kind. They are found mainly in four islands: Batudaka, Togean, Talatakoh, and Malenge. Their body is covered with long (but sparse) hair that may range in color from pale fawn to black; as a result, the overall color varies between individuals from nearly golden to almost black. Distinctively, the belly and insides of the legs are whitish, and this pale coloration may extend to the upper lip, contrasting with the forehead which is often dark. The tail has a well-developed terminal tuft of hair. ",
+      "species": "Togian babirusa"
     }
   ]
 }

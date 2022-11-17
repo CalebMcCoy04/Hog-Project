@@ -1,30 +1,62 @@
-/* .App{
-  background-image: ;
-} */
+.App{
+  background-image: url(https://wallpaperaccess.com/full/1154341.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+
+.navbar-div{
+  background-image: url(https://wallpaperaccess.com/full/1154341.jpg);
+  text-align:center ;
+  text-orientation:mixed;
+  white-space: wrap;
+  
+  /* display: inline-grid; */
+} 
 .hog-container{
   background-repeat: no-repeat;
-  background-color: burlywood;
+  background-color: #374B2D;
   background-size: cover ;
+  border:5px;
 }
+
+.hog-list-title {
+  text-align:center ;
+}
+ 
 
 /* HOG FORM */
 .hog-form-div {
-  position: flex;
+  display: inline;
+  position: center;
   top: 4em;
   left: 0;
   width: 100%;
   margin: 0;
   text-align: center;
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg); */
+  
+  /* background-repeat:no-repeat; */
 }
 .hog-form {
-  display: center;
-  background-color: #15172b;
+  margin:auto;
+   
+  background-color: #F99331;
   border-radius: 20px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   height: 500px;
   padding: 20px;
   width: 320px;
-  text-align: center
+  /* text-align: center */
+  /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg); */
+}
+
+.form-title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .input-container {
@@ -33,9 +65,37 @@
   width: 100%;
 }
 
-/* .n1 {
+.n1 {
+  margin-top: 40px;
+}
 
-} */
+.form-input {
+  background-color: #f4f0f0;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.form-button {
+  background-color: #374B2D;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
 /* END OF HOG FORM  */
 
 img {
@@ -43,7 +103,16 @@ img {
   width: 100%;
   border-radius: 12px;
   height: auto;
+    -webkit-transition: -webkit-transform 1s; 
+  }
+
+img:hover{
+  -webkit-transform: rotate(360deg) translateX(0);
 }
+
+/* img.party-time {
+  animation: spin 2s linear 0s infinite;
+} */
 
 /* HOG CARDS  */
 .card-container {
@@ -52,6 +121,7 @@ img {
   margin-top: 20vh;
   margin-right: 5px;
   margin-left: 45px;
+  
 }
 
 .card {
@@ -61,6 +131,7 @@ img {
   width:17rem;
   border-radius: 12px;
   border: 1px solid #000;
+  box-sizing: border-box;
 }
 /* END OF HOG CARDS  */
 
@@ -84,6 +155,15 @@ p {
   text-align: center;
  
 }
+
+.hogs {
+  word-spacing: 25%;
+  display: inline-grid;
+  color: #ffffff;
+}
+/* .fieldset{
+  
+} */
 
 
 

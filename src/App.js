@@ -53,9 +53,7 @@ function App() {
           </Route>
         
         </Switch>
-        <body className="home-page">
-          
-        </body>
+        
       </div>
   );
 }
