@@ -8,6 +8,7 @@ const HogsContainer = ({hogsData, removeHog}) => {
         )
     })
     const [pig, setPig] = useState(false)
+    
     const handleClick = () => {
         setPig(!pig)
                 window.alert("i was clicked")

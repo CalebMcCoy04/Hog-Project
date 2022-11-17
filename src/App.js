@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {BrowserRouter, Switch, Route, Routes} from 'react-router-dom'
-
+import Home from "./Home"
 import HogsContainer from "./HogsContainer";
 import HogSearch from "./HogSearch";
 import HogsForm from "./HogsFormm";
@@ -35,9 +35,12 @@ function App() {
     
     
     <div className="App">
+      
       <NavBar/>
         <Switch>
-
+          <Route exact path="/">
+            <Home/>
+          </Route>
 
           <Route exact path="/HogSearch" >
             <HogSearch searchText={searchText} setSearchText={setSearchText}/>
