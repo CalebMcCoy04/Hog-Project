@@ -28,7 +28,7 @@ const Hogs = ({hogObj, removeHog}) => {
                 <div className='title'><h3><strong>Genus: </strong> {hogObj.Genus} </h3></div>
                 <div className='p'><p className= "hog-description" >{hogObj.description}</p></div>
                 <div className='p'><p><strong>Habitat:</strong> {hogObj.habitat}</p></div>
-                <button onClick={handleDelete} className="delete-button-hogs">DELETE</button>
+                <button onClick={handleDelete} className="delete-button-hogs">DELETE 🗑️</button>
             </div>
             <div className="party-button-container">
                 <button onClick={handlePartyClick} className="party-button">🎉 PARTY TIME 🎉</button>

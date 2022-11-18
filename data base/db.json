@@ -94,7 +94,7 @@
       "id": 11,
       "habitat": "Oklahoma",
       "Genus": "Sus domesticus",
-      "value": "",
+      "value": "3",
       "image": "https://www.breedslist.com/wp-content/uploads/2016/09/Choctaw-Hog.jpg",
       "description": "The Choctaw hogs are black and sometimes have white markings. They are relatively small for a domestic pig and have droopy ears. Their toes are typically fused forming a single hoof like that of a mule. Many of them have fleshy wattles on each side of their necks. They are a pure Spanish breed and are quick and athletic pigs with heavy forequarters. The average live body weight of the mature boars is around 110-136 kg. They are now reduced in population to some hundred animals. The Choctaw people and their livestock migrated from the Deep South to Oklahoma Territory in the early 19th century.The Choctaw tribe still raises these hogs in Oklahoma ",
       "species": "Choctaw Hog"
@@ -103,7 +103,7 @@
       "id": 12,
       "habitat": "adaptable and thrive in a wide variety of climates.",
       "Genus": "Sus domesticus",
-      "value": "",
+      "value": "7",
       "image": "https://livestockconservancy.org/wp-content/uploads/2022/08/Hereford-scaled.jpg",
       "description": "Herefords are a medium-size hog that is unique to the United States. It's face is of white color and is of medium length which is slight dished. It was developed in Iowa and Nebraska during the 1920s from Duroc, Chester White, and Poland China bloodlines. These hogs are primarily red, with a white face and two or more white feet. It is a pig of medium size: mature sows weigh about 270 kg (600 lb) and boars about 360 kg (800 lb). Today, the breed population is estimated at fewer than 2,000 pigs in the United States, most of them found in the upper Midwest and Plains states.",
       "species": "Hereford Hog"
@@ -112,7 +112,7 @@
       "id": 13,
       "habitat": "Forest, Orchard, and Pastured land",
       "Genus": "Sus domesticus",
-      "value": "",
+      "value": "5",
       "image": "https://morningchores.com/wp-content/uploads/2020/09/American-Guinea-Hog-1.jpg",
       "description": "The Guinea Hog is a small and black swine breed. There are two types of Guinea hog in North America, small-boned and large-boned Guinea hogs, the latter having longer legs. Prior to 2006, this pig was referred to as Guinea Hog, Guinea Forest Hog, or “yard pig.” Some have reddish tinges to their ears or develop maroon shading. The American Guinea Hog is a rare breed with a black coat, sturdy body, curly tail and large, red breed with upright ears, bristly hair and long tails. They were imported from West Africa and the Canary Islands to America in conjunction with the slave trade. They weigh around 69 to 135 kg (150 to 300 lb).  ",
       "species": "Guinea Hog"
@@ -121,7 +121,7 @@
       "id": 14,
       "habitat": "grasslands, forest and areas of parang, from sea level to the mountains",
       "Genus": "Sus philippensis",
-      "value": "",
+      "value": "1",
       "image": "http://images.summitmedia-digital.com/esquiremagph/images/2022/04/19/1-panel%20(10).png",
       "description": "Philippine warty pigs, also known as baboy damo, have two pairs of warts, with a tuft of hair extending outwards from the warts closest to the jaw. There are at least two recognized subspecies of the Philippine warty pig. The S. P. Philippensis, which is found in Luzon and S. P. Mindanensis, which is found in Mindanao. They were mostly found in Luzon, Biliran, Samar, Leyte, Mindoro, Mindanao, Jolo, Polillo, Catanduanes, and possibly other islands. It was formerly found in most habitats (from sea level to up to 2800 m) but is now confined to remote forests due to loss of habitat and heavy hunting.",
       "species": "Philippine warty pig"
@@ -130,7 +130,7 @@
       "id": 15,
       "habitat": "rain forest, swamp, cultivated land and grassland",
       "Genus": "Sus Celebensis",
-      "value": "",
+      "value": "3",
       "image": "https://static.inaturalist.org/photos/71492172/large.jpg",
       "description": "The Celebes warty pig is a medium-sized pig, and quite variable in size and appearance. This pig has a head-and-body length of between 80 and 130 cm (30 and 50 in) and a long tail. The color is grayish-black, sometimes tinged with red or yellow on the flanks. It has three pairs of facial warts and a fringe of pale bristles on the snout and more bristles on the cheeks. The crown and nape are topped by a short crest of dark bristles, while a stripe extends from the crest towards the tufted tail. The  pig occurs in Sulawesi, Buton, Muna, Kabeana, Peleng, Lembeh and the Togian Islands.",
       "species": "Sulawesi Warty Pig"
@@ -139,45 +139,45 @@
       "id": 16,
       "habitat": "open woodland areas with water nearby",
       "Genus": "Sus domesticus",
-      "value": "",
+      "value": "6",
       "image": "https://e222ekm2n8r.exactdn.com/wp-content/uploads/2021/11/Gallery-PotBelliedPig03.jpeg?strip=all&lossy=1&ssl=1",
-      "description": "The Vietnamese Pot-bellied has uniformly black with heavily wrinkled skin. It has a pronounced sway back and a large sagging belly. The head is small, with an up-turned snout, small ears and eyes, and heavy sagging jowls. It was originally from Vietnam but are also in America now. An adult Vietnamese pot-bellied pig’s body length is around three feet and they weigh from 70 to 175 pounds.",
+      "description": "The Vietnamese Pot-bellied is an endangered Vietnamese breed of small domestic pig with an average weight of 50 kg, and an average height of about 36 cm. It has uniformly black with heavily wrinkled skin. It has a pronounced sway back and a large sagging belly. The head is small, with an up-turned snout, small ears and eyes, and heavy sagging jowls. It was originally from Vietnam but are also in America now. A Vietnamese pot-bellied pig’s body length is around 3 feet and they weigh from 70 to 175 pounds.",
       "species": "Vietnamese Pot-bellied"
     },
     {
       "id": 17,
       "habitat": "woodland habitats, farmlands, grasslands, meadows, and pastures",
       "Genus": "Sus domesticus",
-      "value": "",
-      "image": "https://cdn.iamcountryside.com/wp-content/uploads/2019/02/cal-pig-10.jpeg",
-      "description": "The Kunekune are a small breed of domestic pig from New Zealand. It is covered in hair which can be long or short, and straight or curly. Hair colors include black, brown, ginger, gold, cream, and spotted combinations. It has a medium to short, slightly upturned snout, often black, and either semi-lopped or pricked ears. It has a short, round body with short legs and may have two wattles under its chin. It stands about 60 cm (24 in) tall. An adult Kunekune can weigh between 60 and 200 kg (130 and 440 lb).",
+      "value": "10",
+      "image": "https://i.ytimg.com/vi/pU62mCcR_Lg/maxresdefault.jpg",
+      "description": "The Kunekune are a small breed of domestic pig from New Zealand. It is covered in hair which can be long or short, and straight or curly. Hair colors include black, brown, ginger, gold, cream, and spotted combinations. It has a medium to short, slightly upturned snout, often black, and either semi-lopped or pricked ears. It has a short, round body with short legs and may have two wattles under its chin. It stands about 60 cm (24 in) tall. An adult Kunekune can weigh between 60 and 200 kg (130 and 440 lb) and males being considerably heavier than females.",
       "species": "Kunekune"
     },
     {
       "id": 18,
       "habitat": "all major forest types and forest-grassland mosaics ",
       "Genus": "Sus ahoenobarbus",
-      "value": "",
+      "value": "2",
       "image": "https://64.media.tumblr.com/b3d98bf0e2d9a020bd433324d3063c58/tumblr_pr3t23T02R1xwu4tvo1_1280.jpg",
-      "description": "The Palawan bearded pig is the largest wild pig in the Philippines. It's body is dark gray to black in color, with the neck, trunk and limbs all covered in somewhat sparse black hair. A mane of longer pale-tipped hairs extends along the centre of the back; this is most prominent on the back of the head and neck. The tail is covered with long, black hair, and has a distinct feather-like brush of long hair at the tip. The long, narrow head ends with a nasal disc.",
+      "description": "The Palawan bearded pig is the largest wild pig in the Philippines. These pigs have been recorded from many places in this region: Busuanga, Calauit, and the Calamain islands. It's body is dark gray to black in color, with the neck, trunk and limbs all covered in somewhat sparse black hair. A mane of longer pale-tipped hairs extends along the centre of the back; this is most prominent on the back of the head and neck. The tail is covered with long, black hair, and has a distinct feather-like brush of long hair at the tip. The long, narrow head ends with a nasal disc. ",
       "species": "Palawan bearded pig"
     },
     {
       "id": 19,
       "habitat": "Indonesia",
       "Genus": "Sus scrofa vittatus",
-      "value": "",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Banded_Pig_%28Sus_scrofa_vittatus%29_%288750051577%29.jpg",
-      "description": "The banded pig, also known as the Indonesian wild boar, is a short-faced subspecies with a white band on the muzzle, as well as sparse body hair, no under-wool, a fairly long mane, and a broad reddish band extending from the muzzle to the sides of the neck. It is found on many Indonesian Islands such as Sumatra, Java, and the Lesser Sundas as far east as Komodo.",
+      "value": "6",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/105640182/original.jpg",
+      "description": "The banded pig, also known as the Indonesian wild boar, is a short-faced subspecies with a white band on the muzzle, as well as sparse body hair, no under-wool, a fairly long mane, and a broad reddish band extending from the muzzle to the sides of the neck. It is found on many Indonesian Islands such as Sumatra, Java, and the Lesser Sundas as far east as Komodo.  It is much smaller than the mainland S. s. cristatus subspecies, with the largest specimens on Komodo weighing only 48 kg. It differs from other boar populations because it's highly frugivorous",
       "species": " Banded Pig"
     },
     {
       "id": 20,
       "habitat": "primary forests, secondary scrub, swamps, and beaches",
       "Genus": "Babyrousa togeanensis",
-      "value": "",
+      "value": "5",
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Babyrousa_togeanensis.jpg",
-      "description": "The Togian babirusa, also known as the Malenge babirusa, are the largest of their kind. They are found mainly in four islands: Batudaka, Togean, Talatakoh, and Malenge. Their body is covered with long (but sparse) hair that may range in color from pale fawn to black; as a result, the overall color varies between individuals from nearly golden to almost black. Distinctively, the belly and insides of the legs are whitish, and this pale coloration may extend to the upper lip, contrasting with the forehead which is often dark. The tail has a well-developed terminal tuft of hair. ",
+      "description": "The Togian babirusa, also known as the Malenge babirusa, are the largest of their kind. They are found mainly in four islands: Batudaka, Togean, Talatakoh, and Malenge. Their body is covered with long hair that may range in color from pale fawn to black. Their overall color varies between individuals from nearly golden to almost black. Distinctively, the belly and insides of the legs are whitish, and this pale coloration may extend to the upper lip, contrasting with the forehead which is often dark. The tail has a well-developed terminal tuft of hair. ",
       "species": "Togian babirusa"
     }
   ]

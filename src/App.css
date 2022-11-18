@@ -189,13 +189,6 @@ p {
 }
 
 .delete-button-hogs {
-  margin: 0 auto;
-  display: block;
-  display:inline-block;
-
-  }
-
-.delete-button-hogs {
     width: 150px;
     height: 20px;
     cursor: pointer;
@@ -207,6 +200,7 @@ p {
     box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
     transition: 500ms;
     margin: 0 auto;
+    margin-top: 30%;
     display: block;
   }
   
