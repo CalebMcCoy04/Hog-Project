@@ -6,7 +6,7 @@
       "Genus": "Pig",
       "value": 9,
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg/1200px-Wildschwein%2C_N%C3%A4he_Pulverstampftor_%28cropped%29.jpg",
-      "description": "The wild boar, which is sometimes called the European wild boar, is the largest of the wild pigs and is native to forests ranging from western and northern Europe and North Africa to India, the Andaman Islands, and China. The species is now one of the widest-ranging mammals in the world. The wild boar is a bulky, massively built suid with short and relatively thin legs. The trunk is short and robust, while the hindquarters are comparatively underdeveloped. It is bristly haired, grizzled, and blackish or brown in color and stands up to 90 cm (35 inches) tall at the shoulder.",
+      "description": "The wild boar, which is sometimes called the European wild boar, is the largest of the wild pigs and is native to forests ranging from western and northern Europe and North Africa, India, the Andaman Islands, and China. The species is now one of the widest-ranging mammals in the world. The wild boar is a bulky, massively built suid with short and relatively thin legs. The trunk is short and robust, while the hindquarters are underdeveloped. It is bristly haired, grizzled, and blackish or brown in color and stands up to 90 cm tall at the shoulder.",
       "species": "Wild Boar"
     },
     {
@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "habitat": "adaptable and thrive in a wide variety of climates.",
+      "habitat": "Adaptable and thrive in a wide variety of climates.",
       "Genus": "Sus domesticus",
       "value": "7",
       "image": "https://livestockconservancy.org/wp-content/uploads/2022/08/Hereford-scaled.jpg",
@@ -119,7 +119,7 @@
     },
     {
       "id": 14,
-      "habitat": "grasslands, forest and areas of parang, from sea level to the mountains",
+      "habitat": "Grasslands, forest and areas of parang, from sea level to the mountains",
       "Genus": "Sus philippensis",
       "value": "1",
       "image": "http://images.summitmedia-digital.com/esquiremagph/images/2022/04/19/1-panel%20(10).png",
@@ -128,7 +128,7 @@
     },
     {
       "id": 15,
-      "habitat": "rain forest, swamp, cultivated land and grassland",
+      "habitat": "Rain forest, swamp, cultivated land and grassland",
       "Genus": "Sus Celebensis",
       "value": "3",
       "image": "https://static.inaturalist.org/photos/71492172/large.jpg",
@@ -137,7 +137,7 @@
     },
     {
       "id": 16,
-      "habitat": "open woodland areas with water nearby",
+      "habitat": "Open woodland areas with water nearby",
       "Genus": "Sus domesticus",
       "value": "6",
       "image": "https://e222ekm2n8r.exactdn.com/wp-content/uploads/2021/11/Gallery-PotBelliedPig03.jpeg?strip=all&lossy=1&ssl=1",
@@ -146,7 +146,7 @@
     },
     {
       "id": 17,
-      "habitat": "woodland habitats, farmlands, grasslands, meadows, and pastures",
+      "habitat": "Woodland habitats, farmlands, grasslands, meadows, and pastures",
       "Genus": "Sus domesticus",
       "value": "10",
       "image": "https://i.ytimg.com/vi/pU62mCcR_Lg/maxresdefault.jpg",
@@ -155,7 +155,7 @@
     },
     {
       "id": 18,
-      "habitat": "all major forest types and forest-grassland mosaics ",
+      "habitat": "All major forest types and forest-grassland mosaics ",
       "Genus": "Sus ahoenobarbus",
       "value": "2",
       "image": "https://64.media.tumblr.com/b3d98bf0e2d9a020bd433324d3063c58/tumblr_pr3t23T02R1xwu4tvo1_1280.jpg",
@@ -173,12 +173,39 @@
     },
     {
       "id": 20,
-      "habitat": "primary forests, secondary scrub, swamps, and beaches",
+      "habitat": "Primary forests, secondary scrub, swamps, and beaches",
       "Genus": "Babyrousa togeanensis",
       "value": "5",
       "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Babyrousa_togeanensis.jpg",
       "description": "The Togian babirusa, also known as the Malenge babirusa, are the largest of their kind. They are found mainly in four islands: Batudaka, Togean, Talatakoh, and Malenge. Their body is covered with long hair that may range in color from pale fawn to black. Their overall color varies between individuals from nearly golden to almost black. Distinctively, the belly and insides of the legs are whitish, and this pale coloration may extend to the upper lip, contrasting with the forehead which is often dark. The tail has a well-developed terminal tuft of hair. ",
       "species": "Togian babirusa"
+    },
+    {
+      "habitat": " Yellow house on a hill and speaks English with a British accent",
+      "Genus": "Blackstone Adventure",
+      "value": "7",
+      "image": "https://img.rasset.ie/001c10e8-500.jpg",
+      "description": "Peppa Pig is a 4 year old little pig who loves playing with her friends and playing with her little brother George. The characters, such as Peppa, wear clothes, live in houses, and drive cars, but still display some characteristics of the animals on which they are based. Peppa and her family snort like pigs during conversations in which they are speaking English and the other animals make their respective noises when they talk. The characters blush when embarrassed, and their mouths express other emotions such as sadness, happiness, irritation, bewilderment, and confusion",
+      "species": "Peppa Pig",
+      "id": 21
+    },
+    {
+      "habitat": "Lives on a screen",
+      "Genus": "Pig 2",
+      "value": 0,
+      "image": "https://img.freepik.com/premium-vector/cute-pig-is-sitting-with-two-finger-cartoon-illustration_403370-527.jpg?w=2000",
+      "description": "This card is made just to show how the delete works as well",
+      "species": "For Testing Purposes As Well",
+      "id": 23
+    },
+    {
+      "habitat": "Lives on a screen",
+      "Genus": "Pig 3",
+      "value": 0,
+      "image": "https://i.pinimg.com/originals/bf/c2/42/bfc2423914d134d0f02f4c1e0159f4f2.jpg",
+      "description": "This card is made just to show how the delete works as well",
+      "species": "For Testing Purposes As Well",
+      "id": 24
     }
   ]
 }

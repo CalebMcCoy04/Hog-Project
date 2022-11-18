@@ -10,7 +10,7 @@ const HogsForm = ({hogsData, setHogsData}) => {
           value: 0,
           image: "",
           description: "",
-          species: "",
+          species: ""
       })
       
   const handleSubmit = (e) => {
@@ -24,8 +24,16 @@ const HogsForm = ({hogsData, setHogsData}) => {
     .then(newObj => {
       setHogsData([...hogsData, newObj])
     })
+    
+    setNewHogObj({
+          habitat: "",
+          Genus: "",
+          value: 0,
+          image: "",
+          description: "",
+          species: ""
+    })
   }
-
 
     return (
 
@@ -48,12 +56,12 @@ const HogsForm = ({hogsData, setHogsData}) => {
             {/* <label for="Genus" className="placeholder">Last name</label> */}
         </div>
 
-        <div className="input-container n3">
+        {/* <div className="input-container n3">
             <input onChange={(e) => setNewHogObj({...newHogObj, value: e.target.value})}
-            className="form-input"name="value" type="number" value={newHogObj.value} placeholder="Value"/>
+            className="form-input"name="value" type="number" value={newHogObj.value} placeholder="Value"/> */}
             {/* <div class="cut"></div>
             <label for="value" className="placeholder">Last name</label> */}
-        </div>
+        {/* </div> */}
 
         <div className="input-container n4">
             <input onChange={(e) => setNewHogObj({...newHogObj, image: e.target.value})}

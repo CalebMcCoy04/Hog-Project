@@ -10,8 +10,9 @@ const HogsContainer = ({hogsData, removeHog}) => {
     const [pig, setPig] = useState(false)
     
     const handleClick = () => {
+        return window.alert("HOG OR PIG ??")
         setPig(!pig)
-                // window.alert("i was clicked")
+               
             }
     
     return (
@@ -19,7 +20,7 @@ const HogsContainer = ({hogsData, removeHog}) => {
             
             <fieldset className="fieldset">
                 <h1 className="hog-list-title"> Hog List </h1>
-                <legend className="pig" onClick={handleClick}>🐖</legend>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><legend className="pig" onClick={handleClick}>🐖</legend></a>
             {  renderHogs }
             </fieldset>
         </div>
